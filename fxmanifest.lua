@@ -29,3 +29,9 @@ dependencies {
 files {
 	'locales/*.json'
 }
+
+escrow_ignore {
+    'client.lua',
+    'server.lua',
+    'config.lua'
+}

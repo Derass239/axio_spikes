@@ -1,0 +1,9 @@
+{
+    "disassemble":"Disassemble",
+    "delete": "Delete",
+
+    "spikeLaunch":"Launch of a spike.",
+    "spikeGrab":"Take back the spike.",
+    "spikeGiveBack":"You have recovered the spike.",
+    "spikeBroke":"The spike broke..."
+}

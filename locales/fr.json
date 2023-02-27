@@ -1,0 +1,9 @@
+{
+    "disassemble":"Démonter",
+    "delete": "Supprimer",
+
+    "spikeLaunch":"Lancement d'une herse.",
+    "spikeGrab":"Récupération de la herse.",
+    "spikeGiveBack":"Vous avez récuperé la herse.",
+    "spikeBroke":"La herse s'est cassée..."
+}

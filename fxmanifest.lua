@@ -11,7 +11,7 @@ game		'gta5'
 name		'Axio Spike'
 author		'derass#4974'
 description 'Spike script'
-version		'1.0.0'
+version		'1.1.0'
 
 shared_scripts {
     "@ox_lib/init.lua",

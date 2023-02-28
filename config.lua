@@ -16,3 +16,5 @@ Config.timeToLaunch = 2500 -- Time to launch spike
 Config.timeToDisassemble = 2500 -- Time to disassemble spike
 
 Config.percentToBroke = 25 -- Percent to broke spike when you remove it
+
+Config.removeSpikeAfterBurst = true -- Remove spike after burst tire

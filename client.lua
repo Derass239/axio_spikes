@@ -141,7 +141,10 @@ lib.onCache('seat', function(seat)
                     if #(tirePos - spikePos) < 1.8 then
                         if not IsVehicleTyreBurst(vehicle, tires[a].index, true) or IsVehicleTyreBurst(vehicle, tires[a].index, false) then
                             SetVehicleTyreBurst(vehicle, tires[a].index, false, 1000.0)
-                            TriggerServerEvent("axio_spikes:server:removeSpike", closestSpike, false)
+
+                            if Config.removeSpikeAfterBurst then
+                                TriggerServerEvent("axio_spikes:server:removeSpike", closestSpike, false)
+                            end
                         end
                     end
                 end
